@@ -119,7 +119,10 @@
     padding:14px 26px; border:1px solid var(--charcoal); background:transparent; color:var(--charcoal);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 14px 100%, 0 calc(100% - 14px));
   }
-  .btn:hover{background:var(--charcoal); color:var(--ivory);}
+  
+    .btn.on-dark:hover{background:var(--ivory); color:var(--charcoal);}
+    .btn[aria-disabled="true"]{opacity:0.5; cursor:not-allowed;}              /* NEW */
+    .btn[aria-disabled="true"]:hover{background:transparent; color:var(--charcoal);}  /* NEW */
   .btn.primary{background:var(--charcoal); color:var(--ivory);}
   .btn.primary:hover{background:var(--olive); border-color:var(--olive);}
   .btn.on-dark{border-color:var(--ivory); color:var(--ivory);}
