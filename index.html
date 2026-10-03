@@ -290,10 +290,11 @@
 
         <div class="info-grid" style="margin-bottom:56px;">
           <div class="info-card">
-            <h3>Reach us directly</h3>
-            <p id="phone-block" class="empty-state">Phone number to be added by Ora Lodge.</p>
-            <p id="email-block" class="empty-state">Email address to be added by Ora Lodge.</p>
-          </div>
+      <h3>Reach us directly</h3>
+        <p id="phone-block" class="empty-state">Phone number to be added by Ora Lodge.</p>
+        <p id="email-block" class="empty-state">Email address to be added by Ora Lodge.</p>
+        <p id="whatsapp-block" class="empty-state">WhatsApp number to be added by Ora Lodge.</p>  <!-- NEW -->
+        </div>
           <div class="info-card">
             <h3>Find us</h3>
             <p>Ga-Masemola, Sekhukhune District, Limpopo, South Africa.</p>
@@ -304,7 +305,7 @@
         <form class="contact-form" id="contact-form" novalidate>
           <div class="form-msg" id="form-success" role="status" aria-live="polite">Thanks — your message is ready to send. If your email app didn't open, please email us directly using the address above once it's added.</div>
           <div class="form-msg" id="form-error" role="alert" aria-live="assertive">Please fill in your name, a valid email address, and a message before sending.</div>
-
+          <div class="form-msg" id="form-error-whatsapp" role="alert" aria-live="assertive">WhatsApp isn't set up yet — please use the email button instead.</div>  <!-- NEW -->
           <div class="field">
             <label for="f-name">Full name <span class="required-mark">*</span></label>
             <input type="text" id="f-name" name="name" required autocomplete="name">
@@ -325,9 +326,11 @@
             <label for="f-message">Message <span class="required-mark">*</span></label>
             <textarea id="f-message" name="message" rows="5" required></textarea>
           </div>
-          <div>
-            <button type="submit" class="btn primary">Send message</button>
-          </div>
+         <div style="display:flex; gap:16px; flex-wrap:wrap;">
+  <button type="button" class="btn primary" id="btn-send-whatsapp" data-channel="whatsapp">Enquire by WhatsApp</button>
+  <button type="button" class="btn" id="btn-send-email" data-channel="email">Enquire by email</button>
+</div>
+          
         </form>
       </div>
     </section>
