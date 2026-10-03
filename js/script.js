@@ -25,7 +25,7 @@ if (CONFIG.phone) {
   phoneBlock.className = "";
   phoneBlock.innerHTML = 'Phone: <a class="contact-link" href="tel:' + formatTel(CONFIG.phone) + '">' + CONFIG.phone + "</a>";
   headerCall.href = "tel:" + formatTel(CONFIG.phone);
-  headerCall.textContent = CONFIG.phone;        // <-- this line
+  
 }
     if (CONFIG.email) {
       emailBlock.className = "";
