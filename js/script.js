@@ -8,7 +8,7 @@
   // ---------------------------------------------------------------
   var CONFIG = {
     phone: "",            // e.g. "+27 82 123 4567"
-    email: "",            // e.g. "bookings@oralodge.co.za"
+    email: "beggymarutla2005@gmail.com",            // e.g. "bookings@oralodge.co.za"
     mapsQuery: "Ora Lodge Ga-Masemola Limpopo"
   };
 
