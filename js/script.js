@@ -7,9 +7,9 @@
   // contact details; once filled in, they appear automatically below.
   // ---------------------------------------------------------------
   var CONFIG = {
-    phone: "",            // e.g. "+27 82 123 4567"  (shown as a clickable phone number)
-    email: "",            // e.g. "bookings@oralodge.co.za"
-    whatsapp: "",         // digits only, country code first, no + or spaces, e.g. "27821234567"
+    phone: "+27764751683",            // e.g. "+27 82 123 4567"  (shown as a clickable phone number)
+    email: "beggymarutla2005@gmail.com",            // e.g. "bookings@oralodge.co.za"
+    whatsapp: "+27764751683",         // digits only, country code first, no + or spaces, e.g. "27821234567"
     mapsQuery: "Ora Lodge Ga-Masemola Limpopo"
   };
 
